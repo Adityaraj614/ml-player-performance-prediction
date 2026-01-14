@@ -1,2 +1,13 @@
 # ml-player-performance-prediction
-Predicting player performance using machine learning based on gameplay statistics.  This project focuses on data preprocessing, feature engineering, model training,  and evaluation to build strong ML fundamentals.
+# Player Performance Prediction (Machine Learning)
+
+## Problem Statement
+Predict player performance based on gameplay statistics such as accuracy, time played,
+deaths, and score using machine learning techniques.
+
+## Objectives
+- Understand data preprocessing and feature engineering
+- Train baseline machine learning models
+- Evaluate model performance using standard metrics
+
+## Project Structure
