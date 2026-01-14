@@ -1,61 +1,73 @@
-#Player Performance Prediction (Machine Learning)
-#Project Overview
+# 🎮 Player Performance Prediction (Machine Learning)
 
-This project focuses on predicting player performance using supervised machine learning techniques based on gameplay statistics. The goal is to build a complete end-to-end ML pipeline while strengthening core machine learning fundamentals such as data preprocessing, feature engineering, model training, and evaluation.
+## 📌 Project Overview
+This project focuses on predicting **player performance** using **supervised machine learning** based on gameplay statistics.  
+The goal is to build a **complete end-to-end ML pipeline** while strengthening core machine learning fundamentals such as:
 
-This project is intentionally designed as a foundational ML project before moving into advanced areas like Deep Learning, Game AI, or Reinforcement Learning.
+- Data preprocessing  
+- Feature engineering  
+- Model training  
+- Model evaluation  
 
-Why This Project
+This project is intentionally designed as a **foundational ML project** before moving into advanced areas like **Deep Learning, Game AI, and Reinforcement Learning**.
 
-As a student specializing in Artificial Intelligence, it is essential to first develop strong fundamentals in classical machine learning. Player performance prediction is a realistic and practical problem that allows the application of supervised learning concepts on structured numerical data.
+---
 
-This project helps bridge the gap between theory and real-world ML workflows by simulating how performance analytics are handled in gaming and analytics-driven systems.
+## 🎯 Why This Project
+As an **AI Engineering student**, it is essential to first build strong foundations in **classical machine learning**.
 
-Problem Statement
+Player performance prediction is a **realistic, industry-relevant problem** that allows the application of supervised learning on **structured numerical data**, similar to analytics systems used in gaming and performance tracking platforms.
 
+This project bridges the gap between **ML theory and real-world workflows**.
+
+---
+
+## 🧠 Problem Statement
 Predict player performance based on gameplay statistics such as:
 
-Accuracy
+- 🎯 Accuracy  
+- ⏱️ Time Played  
+- ☠️ Number of Deaths  
+- 🏆 Score  
 
-Time played
+The model learns patterns from historical data and **classifies or predicts player performance** using supervised learning techniques.
 
-Number of deaths
+---
 
-Score
+## 🛠️ Machine Learning Topics Covered
+- Supervised Learning (Classification / Regression)
+- Data preprocessing & cleaning
+- Feature engineering
+- Train-test split
+- Model training using classical ML algorithms
+- Model evaluation using standard metrics
 
-The model learns patterns from historical data and classifies or predicts player performance using supervised learning techniques.
+---
 
-Machine Learning Topics Covered
+## 🎯 Objectives
+- Build a complete **supervised ML pipeline** from scratch  
+- Understand how raw gameplay data is transformed into meaningful features  
+- Train and evaluate **baseline machine learning models**  
+- Develop strong ML fundamentals required for **advanced AI projects**
 
-Supervised Learning (Classification / Regression)
+---
 
-Data preprocessing and cleaning
-
-Feature engineering
-
-Train-test split
-
-Model training using classical ML algorithms
-
-Model evaluation using standard metrics
-
-Objectives
-
-Build a complete supervised ML pipeline from scratch
-
-Understand how raw gameplay data is transformed into meaningful features
-
-Train and evaluate baseline machine learning models
-
-Develop strong ML fundamentals required for advanced AI projects
-
-Project Structure
+## 📂 Project Structure
 data/        # Dataset storage
 notebooks/   # Exploratory Data Analysis (EDA)
 src/         # Source code (preprocessing, training, evaluation)
 README.md
 
-Current Status
+---
 
-Baseline machine learning pipeline under development.
-Dataset creation and exploratory data analysis will be performed next.
+## 🚧 Current Status
+- Baseline machine learning pipeline under development  
+- Dataset creation and exploratory data analysis (EDA) will be performed next  
+
+---
+
+## 🚀 What’s Next
+- Dataset generation / collection  
+- Exploratory Data Analysis (EDA)  
+- Baseline model training  
+- Model evaluation and improvements  
