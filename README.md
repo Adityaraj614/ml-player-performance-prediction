@@ -1,4 +1,3 @@
-# ml-player-performance-prediction
 # Player Performance Prediction (Machine Learning)
 
 ## Problem Statement
