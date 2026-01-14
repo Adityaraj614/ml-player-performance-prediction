@@ -11,3 +11,11 @@ deaths, and score using machine learning techniques.
 - Evaluate model performance using standard metrics
 
 ## Project Structure
+data/ # Dataset storage
+src/ # Source code
+notebooks/ # Exploratory analysis
+
+## Current Status
+Baseline ML pipeline under development.
+
+Updated README with problem definition and structure
