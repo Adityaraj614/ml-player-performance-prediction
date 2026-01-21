@@ -60,14 +60,49 @@ README.md
 
 ---
 
-## 🚧 Current Status
-- Baseline machine learning pipeline under development  
-- Dataset creation and exploratory data analysis (EDA) will be performed next  
+## 🧠 Approach
+1. Synthetic dataset generation with realistic scoring logic
+2. Exploratory Data Analysis (EDA)
+3. Feature engineering
+4. Model training and evaluation
+5. Model comparison and selection
 
 ---
 
-## 🚀 What’s Next
-- Dataset generation / collection  
-- Exploratory Data Analysis (EDA)  
-- Baseline model training  
-- Model evaluation and improvements  
+## 🤖 Models Used
+- Logistic Regression (baseline & scaled)
+- Random Forest Classifier
+
+Models were compared using accuracy, confusion matrices, and classification reports.
+
+---
+
+## 🏆 Final Model
+**Logistic Regression (with feature scaling)**  
+Chosen due to better generalization and alignment with the linear structure of the dataset.
+
+---
+
+## 📊 Key Learnings
+- Importance of feature scaling for linear models
+- Model complexity should match data characteristics
+- Higher accuracy does not always mean better generalization
+- Proper evaluation is more important than model choice
+
+---
+
+## 🛠 Tech Stack
+- Python
+- NumPy, Pandas
+- Matplotlib, Seaborn
+- Scikit-learn
+  
+---
+
+## 🚀 Future Work
+- Extend to real gameplay datasets
+- Integrate with adaptive difficulty systems
+- Use explainability tools like SHAP
+
+
+
