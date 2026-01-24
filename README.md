@@ -1,108 +1,56 @@
 # 🎮 Player Performance Prediction (Machine Learning)
 
-## 📌 Project Overview
-This project focuses on predicting **player performance** using **supervised machine learning** based on gameplay statistics.  
-The goal is to build a **complete end-to-end ML pipeline** while strengthening core machine learning fundamentals such as:
+## 📌 What is this?
+Before diving into advanced Deep Learning or Game AI, I wanted to master the "bread and butter" of AI: **Classical Machine Learning**. This project is an end-to-end pipeline that predicts player performance levels based on their in-game statistics. 
 
-- Data preprocessing  
-- Feature engineering  
-- Model training  
-- Model evaluation  
-
-This project is intentionally designed as a **foundational ML project** before moving into advanced areas like **Deep Learning, Game AI, and Reinforcement Learning**.
+It’s not just about getting a high accuracy score; it’s about understanding how raw gameplay data is transformed into actionable insights.
 
 ---
 
-## 🎯 Why This Project
-As an **AI Engineering student**, it is essential to first build strong foundations in **classical machine learning**.
+## 🎯 Why I Built This
+As a 3rd-year CS student focusing on AI, I believe you can’t build great Neural Networks without first mastering **Supervised Learning**. 
 
-Player performance prediction is a **realistic, industry-relevant problem** that allows the application of supervised learning on **structured numerical data**, similar to analytics systems used in gaming and performance tracking platforms.
-
-This project bridges the gap between **ML theory and real-world workflows**.
+Player analytics is a massive part of the gaming industry—from matchmaking to performance tracking. I built this to bridge the gap between ML theory and a workflow that I’m actually passionate about.
 
 ---
 
-## 🧠 Problem Statement
-Predict player performance based on gameplay statistics such as:
-
-- 🎯 Accuracy  
-- ⏱️ Time Played  
-- ☠️ Number of Deaths  
-- 🏆 Score  
-
-The model learns patterns from historical data and **classifies or predicts player performance** using supervised learning techniques.
+## 🧠 The Challenge
+The goal was to see if a model could accurately classify player skill by analyzing:
+* **🎯 Accuracy (%)** – Precision under pressure.
+* **⏱️ Time Played** – Experience vs. raw skill.
+* **☠️ K/D Ratio** – Efficiency in combat.
+* **🏆 Total Score** – The final performance metric.
 
 ---
 
-## 🛠️ Machine Learning Topics Covered
-- Supervised Learning (Classification / Regression)
-- Data preprocessing & cleaning
-- Feature engineering
-- Train-test split
-- Model training using classical ML algorithms
-- Model evaluation using standard metrics
+## 🛠 What I Learned (The "Hard" Way)
+This project went deeper than just running `model.fit()`. My biggest takeaways came from the "boring" parts that actually make or break a model:
 
----
-
-## 🎯 Objectives
-- Build a complete **supervised ML pipeline** from scratch  
-- Understand how raw gameplay data is transformed into meaningful features  
-- Train and evaluate **baseline machine learning models**  
-- Develop strong ML fundamentals required for **advanced AI projects**
+* **Feature Scaling:** I discovered firsthand why Logistic Regression struggles when features are on different scales and how `StandardScaler` fixes it.
+* **Model Selection:** I realized that "fancier" isn't always better. While Random Forest is powerful, a well-tuned linear model was more suited for this specific dataset.
+* **Evaluation Metrics:** Learned that Accuracy is a lie if you don't look at the **Confusion Matrix** and **Precision-Recall** to see where the model is actually failing.
 
 ---
 
 ## 📂 Project Structure
-data/        # Dataset storage
-notebooks/   # Exploratory Data Analysis (EDA)
-src/         # Source code (preprocessing, training, evaluation)
-README.md
+* `data/` – Synthetic gameplay datasets.
+* `notebooks/` – Exploratory Data Analysis (EDA) and visualization.
+* `src/` – Clean, modular code for preprocessing and training.
 
 ---
 
-## 🧠 Approach
-1. Synthetic dataset generation with realistic scoring logic
-2. Exploratory Data Analysis (EDA)
-3. Feature engineering
-4. Model training and evaluation
-5. Model comparison and selection
+## 🤖 The Tech Stack
+* **Language:** Python
+* **Libraries:** Pandas, NumPy (Data Handling), Scikit-Learn (ML), Seaborn/Matplotlib (Visualization).
+* **Models Tested:** Logistic Regression (Winner) and Random Forest.
 
 ---
 
-## 🤖 Models Used
-- Logistic Regression (baseline & scaled)
-- Random Forest Classifier
-
-Models were compared using accuracy, confusion matrices, and classification reports.
+## 🏆 Final Result
+I chose **Logistic Regression (with scaling)** as my final model. It provided the best generalization and aligned perfectly with the linear structure of the gameplay scoring logic. It proved that sometimes, a simpler model is the most robust solution.
 
 ---
 
-## 🏆 Final Model
-**Logistic Regression (with feature scaling)**  
-Chosen due to better generalization and alignment with the linear structure of the dataset.
-
----
-
-## 📊 Key Learnings
-- Importance of feature scaling for linear models
-- Model complexity should match data characteristics
-- Higher accuracy does not always mean better generalization
-- Proper evaluation is more important than model choice
-
----
-
-## 🛠 Tech Stack
-- Python
-- NumPy, Pandas
-- Matplotlib, Seaborn
-- Scikit-learn
-  
----
-
-## 🚀 Future Work
-- Extend to real gameplay datasets
-- Integrate with adaptive difficulty systems
-- Use explainability tools like SHAP
-
-
-
+## 🚀 What’s Next?
+* Testing the pipeline on real-world datasets (like CS:GO or Valorant API data).
+* Implementing **SHAP values** to explain *why* the model flags a player as "High Performance."
